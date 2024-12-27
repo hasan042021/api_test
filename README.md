@@ -26,8 +26,8 @@ api_test/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/graphql_rest_automation.git
-   cd graphql_rest_automation
+   git clone https://github.com/hasan042021/api_test
+   cd api_test
    ```
 
 2. Install the dependencies from `requirements.txt`:
