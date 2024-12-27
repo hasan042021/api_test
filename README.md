@@ -4,16 +4,19 @@ This project automates the process of fetching country data from a GraphQL API, 
 
 ## Project Structure
 
-api_test/
-├── scripts.py # Entry point of the project
-├── services/
-│ ├── graphql_service.py # Functions related to GraphQL operations
-│ ├── rest_service.py # Functions related to REST API interactions
-│ ├── file_service.py # Functions for CSV file handling
-├── utils/
-│ ├──visualization.py # Functions for visualization
-├── requirements.txt # List of dependencies
-└── README.md # Instructions and project description
+graphql_rest_automation/
+├── main.py                     # Entry point of the project
+├── services/                   
+│   ├── graphql_service.py      # Functions related to GraphQL operations
+│   ├── rest_service.py         # Functions related to REST API interactions
+│   ├── file_service.py         # Functions for CSV file handling
+├── utils/                      
+│   ├── visualization.py        # Functions for visualization
+├── api_env/                    # Environment folder (not tracked by Git)
+├── .gitignore                  # Git ignore file (used to ignore api_env)
+├── requirements.txt            # List of dependencies
+└── README.md                   # Instructions and project description
+
 
 ## Requirements
 
